@@ -72,7 +72,7 @@ textarea {
     border-radius: 50%;
 }
 
-.keyboard__key--active::after {
+.keyboard__key--activable::after {
     background: #08ff00;
 }
 
