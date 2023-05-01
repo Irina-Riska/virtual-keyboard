@@ -2,7 +2,7 @@ textarea {
     position: absolute;
     top: 130px;
     left: 5px;
-    min-width: 90%; 
+    min-width: 90%;
     height: 200px;
     max-width: 100%;
 }
