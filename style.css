@@ -1,3 +1,12 @@
+textarea {
+    position: absolute;
+    top: 130px;
+    left: 5px;
+    min-width: 90%; 
+    height: 200px;
+    max-width: 100%;
+}
+
 .keyboard {
     position: fixed;
     left: 0;
@@ -5,12 +14,12 @@
     width: 100%;
     padding: 5px 0;
     background: #004134;
-    box-shadow: 0 0 50px rgba( 0, 0, 0, 0.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select: none;
     transition: bottom 0.4s;
 }
 
-keyboard-hidden {
+.keyboard--hidden {
     bottom: -100%;
 }
 
@@ -30,7 +39,7 @@ keyboard-hidden {
     font-size: 1.05rem;
     outline: none;
     cursor: pointer;
-    display:inline-flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     vertical-align: top;
@@ -56,10 +65,10 @@ keyboard-hidden {
     content: '';
     top: 10px;
     right: 10px;
-    position:absolute;
+    position: absolute;
     width: 8px;
     height: 8px;
-    background: rgba( 0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
 }
 
