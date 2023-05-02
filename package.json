@@ -1,0 +1,26 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "eslint":"npx eslint public/app.js",
+    "eslint-fix":"npx eslint --fix public/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irina-Riska/virtual-keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irina-Riska/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/Irina-Riska/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
