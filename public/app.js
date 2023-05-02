@@ -1,5 +1,5 @@
 const textArea = document.createElement('h1');
-textArea.innerHTML = 'если есть возможность дайте 24 часа на дополнение';
+textArea.innerHTML = 'если есть возможность, дайте 24 часа на дополнение';
 document.body.appendChild(textArea);
 
 const Keyboard = {
