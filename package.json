@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "eslint":"npx eslint app.js",
-    "eslint-fix":"npx eslint --fix app.js"
+    "eslint":"npx eslint public/app.js",
+    "eslint-fix":"npx eslint --fix public/app.js"
   },
   "repository": {
     "type": "git",
